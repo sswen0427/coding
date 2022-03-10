@@ -24,3 +24,5 @@
 
 8.蚂蚁森林之王   Arrays.fill method can init the array    simple
 
+9.删除字符    never use stack    difficult
+
