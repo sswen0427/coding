@@ -4,39 +4,46 @@ import java.util.*;
 
 public class PerfectPair {
 
+    private static String getString(int[] nums){
+        StringBuilder stringBuilder = new StringBuilder();
+        for(int num : nums){
+            if(num > 0) stringBuilder.append("+" + num);
+            else if(num < 0) stringBuilder.append(num);
+            else stringBuilder.append("0");
+        }
+        return stringBuilder.toString();
+    }
+
+    private static String reverseString(int[] nums){
+        StringBuilder stringBuilder = new StringBuilder();
+        for(int num : nums){
+            if(num > 0) stringBuilder.append("-" + num);
+            else if(num < 0) stringBuilder.append("+" + -num);
+            else stringBuilder.append("0");
+        }
+        return stringBuilder.toString();
+    }
+
     public static void main(String[] args) {
-        Map<List<Integer>, Integer> map = new HashMap<>();
+        Map<String, Integer> map = new HashMap<>();
+
         Scanner sc = new Scanner(System.in);
-        int n = sc.nextInt(), k = sc.nextInt();;
+        int n = sc.nextInt(), k = sc.nextInt();
+        int[][] nums = new int[n][k-1];
+        int sum = 0;
+
         for(int i = 0; i < n; i++){
             int first = sc.nextInt();
-            List<Integer> list = new ArrayList<>();
             for(int j = 1; j < k; j++){
-                list.add(first - sc.nextInt());
+                nums[i][j-1] = first - sc.nextInt();
             }
-            map.put(list, map.getOrDefault(list, 0) + 1);
-        }
-        int sum = 0;
-        List<Integer> negate = Collections.nCopies(k-1, 0);
-        if(map.containsKey(negate)){
-            int cnt = map.get(negate);
-            sum += cnt * (cnt-1)/2;
-        }
-        int sum1 = 0;
-        for(Map.Entry<List<Integer>, Integer> entry : map.entrySet()){
-            List<Integer> nums = entry.getKey();
-            int value1 = entry.getValue();
-
-            List<Integer> list = new ArrayList<>();
-            for(int i = 0; i < nums.size(); i++){
-                list.add(-nums.get(i));
+            String sequentialString = getString(nums[i]);
+            String reverseString = reverseString(nums[i]);
+            if(map.containsKey(reverseString)){
+                sum += map.get(reverseString);
             }
-            if(map.containsKey(list)){
-                int value2 = map.get(list);
-                sum1 += value1 * value2;
-            }
+            map.put(sequentialString, map.getOrDefault(sequentialString, 0) + 1);
         }
-        sum += sum1/2;
         System.out.println(sum);
     }
 }
