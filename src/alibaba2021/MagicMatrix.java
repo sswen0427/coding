@@ -18,14 +18,9 @@ public class MagicMatrix {
 
         for(int i = 1; i < n; i++){
             for(int j = 0; j < 3; j++){
-                long min = Long.MAX_VALUE;
-                for(int k = 0; k < 3; k++){
-                    long diff = Math.abs(nums[i][j] - nums[i-1][k]) + res[k];
-                    if(diff < min){
-                        min = diff;
-                    }
-                }
-                tmp[j] = min;
+                tmp[j] = Math.min(Math.abs(nums[i][j] - nums[i-1][0]) + res[0],
+                        Math.min(Math.abs(nums[i][j] - nums[i-1][1]) + res[1],
+                                Math.abs(nums[i][j] - nums[i-1][2]) + res[2]));
             }
             for(int j = 0; j < 3; j++){
                 res[j] = tmp[j];
