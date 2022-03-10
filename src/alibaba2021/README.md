@@ -26,5 +26,5 @@
 
 9.删除字符    never use stack    **difficult**
 
-10.视力表 BigInteger is useful    **difficult** 
+10.视力表 BigInteger is useful    **difficult**   取模等式等价变形中，是没有除法的！！！
 
