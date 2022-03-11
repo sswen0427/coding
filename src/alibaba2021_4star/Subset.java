@@ -33,10 +33,13 @@ public class Subset{
             for (int j = 0; j < n; j++)    t[j][0] = sc.nextInt();
             for (int j = 0; j < n; j++)    t[j][1] = sc.nextInt();
             //x相同的情况下y更大的排序在前面（不然的话会重复统计相同的x）
-            Arrays.sort(t, (o1, o2) -> {
-                if(o1[0] < o2[0]) return -1;
-                else if(o1[0] > o2[0]) return 1;
-                else return -Integer.compare(o1[1], o2[1]);
+            Arrays.sort(t, new Comparator<int[]>() {
+                @Override
+                public int compare(int[] o1, int[] o2) {
+                    if(o1[0] < o2[0]) return -1;
+                    else if(o1[0] > o2[0]) return 1;
+                    else return -Integer.compare(o1[1], o2[1]);
+                }
             });
 
             for (int j = 0; j < n; j++)     nums[j] = t[j][1];
