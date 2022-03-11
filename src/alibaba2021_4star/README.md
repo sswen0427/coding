@@ -6,3 +6,5 @@
     a<sub>n</sub> = a<sub>n-1</sub> * A - B * a<sub>n-2</sub>
 
 3.二叉树    **difficult**   amazing
+
+4.对称飞行器    **very difficult**
