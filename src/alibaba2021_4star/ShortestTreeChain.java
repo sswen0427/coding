@@ -6,7 +6,7 @@ public class ShortestTreeChain {
     private static int n = 0;
     private static int[] grade = null;
     private static boolean[] isVisited = null;
-    private static Map<Integer, Set<Integer>> graph = null;
+    private static Map<Integer, List<Integer>> graph = null;
 
     private static int bfs(int index){
         Arrays.fill(isVisited, false);
@@ -49,10 +49,10 @@ public class ShortestTreeChain {
             int u = sc.nextInt();
             int v = sc.nextInt();
             if(!graph.containsKey(u)){
-                graph.put(u, new HashSet<>());
+                graph.put(u, new ArrayList<>());
             }
             if(!graph.containsKey(v)){
-                graph.put(v, new HashSet<>());
+                graph.put(v, new ArrayList<>());
             }
             graph.get(u).add(v);
             graph.get(v).add(u);
