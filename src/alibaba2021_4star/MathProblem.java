@@ -2,7 +2,7 @@ package alibaba2021_4star;
 
 import java.util.Scanner;
 
-public class Math {
+public class MathProblem {
     private static long MOD = 1000000007;
 
     public static void main(String[] args) {
