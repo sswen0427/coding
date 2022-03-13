@@ -1,8 +1,8 @@
 package alibaba2021_4star;
 
-        import java.util.Arrays;
-        import java.util.Comparator;
-        import java.util.Scanner;
+import java.util.Arrays;
+import java.util.Comparator;
+import java.util.Scanner;
 
 public class Candy {
     private static int cal(int[][] weightValue, int size, int m){
