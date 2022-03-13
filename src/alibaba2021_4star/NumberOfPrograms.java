@@ -3,46 +3,45 @@ package alibaba2021_4star;
 import java.util.Scanner;
 
 public class NumberOfPrograms {
-    private static int total, n, m;
+    private static int n, m;
     private static int[][] matrix = null;
     private static final int MOD = 10000;
 
 
-    private static void dfs(int x, int y){
-        if(x == n-1 && y == m-1){
-            total++;
-            total %= MOD;
-            return;
-        }
+    private static int cal(){
+        int[][] dp = new int[n][m];
+        dp[0][0] = 1;
+        for(int i = 0; i < n; i++){
+            for(int j = 0; j < m; j++){
+                int energy = matrix[i][j];
 
-        int energy = matrix[x][y];
-        for(int i = x; i <= x + energy && i < n; i++){
-            for(int j = y; j <= y + energy && j < m; j++){
-                int dis = i + j - x - y;
-                if(0 < dis && dis <= energy){
-                    dfs(i, j);
-                }else if(dis > energy){
-                    break;
+                for(int dx = 0; dx <= energy; dx++){
+                    for(int dy = 0; dy <= energy-dx; dy++){
+                        if(dx == 0 && dy == 0)  continue;
+                        int nx = i+dx, ny = j+dy;
+                        if(nx < n && ny < m){
+                            dp[nx][ny] = (dp[i][j] + dp[nx][ny]) % MOD;
+                        }
+                    }
                 }
             }
         }
+        return dp[n-1][m-1];
     }
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int T = sc.nextInt();
-        for (int i = 0; i < T; i++) {
+        while (T-- > 0){
             n = sc.nextInt();
             m = sc.nextInt();
             matrix = new int[n][m];
-            for (int j = 0; j < n; j++) {
-                for (int k = 0; k < m; k++) {
-                    matrix[j][k] = sc.nextInt();
+            for (int i = 0; i < n; i++) {
+                for (int j = 0; j < m; j++) {
+                    matrix[i][j] = sc.nextInt();
                 }
             }
-            total = 0;
-            dfs(0, 0);
-            System.out.println(total);
+            System.out.println(cal());
         }
     }
 }
