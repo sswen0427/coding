@@ -6,28 +6,18 @@ public class Anagram {
         if(n > m) return false;
         int[] cnt = new int[26];
         for(int i = 0; i < n; i++){
-            --cnt[s1.charAt(i)-'a'];
-            ++cnt[s2.charAt(i)-'a'];
+            --cnt[s1.charAt(i) - 'a'];
         }
-        int diff = 0;
-        for(int num : cnt){
-            if(num != 0)  diff++;
-        }
-        if(diff == 0)  return true;
-        for(int i = n; i < m; i++){
-            char x = s2.charAt(i);
-            char y = s2.charAt(i-n);
-            if(x == y) continue;
-
-            if(cnt[x-'a'] == 0) diff++;
-            ++cnt[x-'a'];
-            if(cnt[x-'a'] == 0) diff--;
-
-            if(cnt[y-'a'] == 0) diff++;
-            --cnt[y-'a'];
-            if(cnt[y-'a'] == 0) diff--;
-
-            if(diff == 0)  return true;
+        int left = 0, right = 0;
+        while(right < m){
+            int index = s2.charAt(right) - 'a';
+            ++cnt[index];
+            while(cnt[index] > 0){
+                --cnt[s2.charAt(left)-'a'];
+                ++left;
+            }
+            if(right - left + 1 == n) return true;
+            right++;
         }
         return false;
     }
