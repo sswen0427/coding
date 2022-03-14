@@ -26,3 +26,6 @@ cnt 的元素值之和为 0。由于 cnt 的值不为正，元素值之和为 0 
 
 剑指 Offer II 017. [含有所有字符的最短字符串](https://leetcode-cn.com/problems/M1oyTv/)  
 &nbsp;&nbsp;&nbsp;&nbsp;双指针+hashmap，第二次了还是不会
+
+剑指 Offer II 026. [重排链表](https://leetcode-cn.com/problems/LGjMqU/)  
+&nbsp;&nbsp;&nbsp;&nbsp;寻找链表中点 + 链表逆序 + 合并链表  比较简单
