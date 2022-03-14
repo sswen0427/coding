@@ -23,3 +23,6 @@ cnt 的元素值之和为 0。由于 cnt 的值不为正，元素值之和为 0 
                         
 剑指 Offer II 015. [字符串中的所有变位词](https://leetcode-cn.com/problems/VabMRr/)    
 &nbsp;&nbsp;&nbsp;&nbsp;同上题，比较简单
+
+剑指 Offer II 017. [含有所有字符的最短字符串](https://leetcode-cn.com/problems/M1oyTv/)  
+&nbsp;&nbsp;&nbsp;&nbsp;双指针+hashmap，第二次了还是不会
