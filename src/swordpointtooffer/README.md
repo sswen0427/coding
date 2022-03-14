@@ -21,3 +21,5 @@
 注意到 [left,right] 的长度每增加 1，cnt 的元素值之和就增加 1。当 [left,right] 的长度恰好为 n 时，就意味着
 cnt 的元素值之和为 0。由于 cnt 的值不为正，元素值之和为 0 就意味着所有元素均为 0，这样我们就找到了一个目标子串。
                         
+剑指 Offer II 015. [字符串中的所有变位词](https://leetcode-cn.com/problems/VabMRr/)    
+&nbsp;&nbsp;&nbsp;&nbsp;同上题，比较简单
