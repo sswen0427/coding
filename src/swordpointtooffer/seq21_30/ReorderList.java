@@ -1,4 +1,4 @@
-package swordpointtooffer;
+package swordpointtooffer.seq21_30;
 
 /**
  * Definition for singly-linked list.

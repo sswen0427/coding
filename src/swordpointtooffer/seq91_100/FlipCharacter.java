@@ -1,4 +1,4 @@
-package swordpointtooffer;
+package swordpointtooffer.seq91_100;
 
 public class FlipCharacter {
     public int minFlipsMonoIncr(String s) {

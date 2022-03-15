@@ -1,4 +1,4 @@
-package swordpointtooffer;
+package swordpointtooffer.seq11_20;
 
 import java.util.HashMap;
 import java.util.Map;

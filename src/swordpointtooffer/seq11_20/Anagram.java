@@ -1,4 +1,4 @@
-package swordpointtooffer;
+package swordpointtooffer.seq11_20;
 
 public class Anagram {
     public boolean checkInclusion(String s1, String s2) {

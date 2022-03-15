@@ -1,5 +1,3 @@
-剑指 Offer II 007. [数组中和为 0 的三个数](https://leetcode-cn.com/problems/1fGaJU/)  
-&nbsp;&nbsp;&nbsp;&nbsp;先排序，以第一个元素为target，然后使用双指针寻找和为target的两个数
 
 剑指 Offer II 011. [0 和 1 个数相同的子数组](https://leetcode-cn.com/problems/A1NYOS/)  
 &nbsp;&nbsp;&nbsp;&nbsp;将数组中的 0 视作 −1，则原问题转换成「求最长的连续子数组，其元素和为 0」。 维护一个变量counter 存储前缀和。
@@ -26,17 +24,3 @@ cnt 的元素值之和为 0。由于 cnt 的值不为正，元素值之和为 0 
 
 剑指 Offer II 017. [含有所有字符的最短字符串](https://leetcode-cn.com/problems/M1oyTv/)  
 &nbsp;&nbsp;&nbsp;&nbsp;双指针+hashmap，第二次了还是不会
-
-剑指 Offer II 026. [重排链表](https://leetcode-cn.com/problems/LGjMqU/)  
-&nbsp;&nbsp;&nbsp;&nbsp;寻找链表中点 + 链表逆序 + 合并链表  比较简单
-
-剑指 Offer II 092. [翻转字符](https://leetcode-cn.com/problems/cyJERH/)  
-&nbsp;&nbsp;&nbsp;&nbsp;zero[i]和one[i]表示0到 i 的子串满足要求且分别以0结尾和以1结尾时的最小翻转次数。  
-&nbsp;&nbsp;&nbsp;&nbsp;s[i] == '0': zero[i] = zero[i-1], one[i] = min(one[i-1], zero[i-1]) + 1  
-&nbsp;&nbsp;&nbsp;&nbsp;s[i] == '1': zero[i] = zero[i-1]+1, one[i] = min(one[i-1], zero[i-1])  
-&nbsp;&nbsp;&nbsp;&nbsp;s[0] == '0': zero[0] = 0, one[0] = 1  
-&nbsp;&nbsp;&nbsp;&nbsp;s[0] == '1': zero[0] = 1, one[0] = 0  
-&nbsp;&nbsp;&nbsp;&nbsp;由于当前的最小值只和前一位的最小值有关，所以可以优化空间复杂度为O(1)，只使用两个变量zero和one来表示前面的最小值
-
-剑指 Offer II 030. [插入、删除和随机访问都是 O(1) 的容器](https://leetcode-cn.com/problems/FortPu/)  
-&nbsp;&nbsp;&nbsp;&nbsp;无序字典+动态数组.思想类似于对堆进行操作（1）插入一个数时，先放到最后（2）删除一个数时，让最后一个数字去替换
