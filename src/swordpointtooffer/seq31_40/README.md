@@ -10,3 +10,6 @@
 &nbsp;&nbsp;&nbsp;&nbsp;如果我们枚举「高」，我们可以使用一重循环枚举某一根柱子，将其固定为矩形的高度 h。随后我们从这跟柱子开始向两侧延伸，直到遇到高度小于 h 的柱子，就确定了矩形的左右边界。如果左右边界之间的宽度为 w，那么对应的面积为 w×h。
 
 &nbsp;&nbsp;&nbsp;&nbsp;单调栈，和38题一样，用两次单调栈
+
+剑指 Offer II 040. [矩阵中最大的矩形](https://leetcode.cn/problems/PLYXKQ/)  
+&nbsp;&nbsp;&nbsp;&nbsp;将问题归约到第39题
