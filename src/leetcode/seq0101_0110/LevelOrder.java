@@ -1,4 +1,4 @@
-package leetcode.seq141_150;
+package leetcode.seq0101_0110;
 
 import java.util.ArrayList;
 import java.util.Deque;
@@ -20,7 +20,7 @@ import java.util.List;
  *     }
  * }
  */
-public class BinaryTreePreorderTraversal {
+public class LevelOrder {
     class TreeNode {
         int val;
         TreeNode left;
@@ -33,22 +33,23 @@ public class BinaryTreePreorderTraversal {
             this.right = right;
         }
     }
-    public List<Integer> preorderTraversal(TreeNode root) {
-        List<Integer> res = new ArrayList<>();
+    public List<List<Integer>> levelOrder(TreeNode root) {
+        List<List<Integer>> res = new ArrayList<>();
         if(root == null){
             return res;
         }
-
-        Deque<TreeNode> stack = new LinkedList<>();
-        TreeNode node = root;
-        while (!stack.isEmpty() || node != null){
-            while (node != null){
-                res.add(node.val);
-                stack.push(node);
-                node = node.left;
+        Deque<TreeNode> queue = new LinkedList<>();
+        queue.addLast(root);
+        while (queue.size() > 0){
+            int length = queue.size();
+            List<Integer> list = new ArrayList<>();
+            for(int i = 0; i < length; i++){
+                TreeNode node = queue.pollFirst();
+                list.add(node.val);
+                if(node.left != null) queue.addLast(node.left);
+                if(node.right != null) queue.addLast(node.right);
             }
-            node = stack.pop();
-            node = node.right;
+            res.add(list);
         }
         return res;
     }

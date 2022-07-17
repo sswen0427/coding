@@ -1,4 +1,4 @@
-package leetcode.seq821_830;
+package leetcode.seq0821_0830;
 
 import java.util.*;
 

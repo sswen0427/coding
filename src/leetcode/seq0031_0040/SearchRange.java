@@ -1,6 +1,7 @@
-package leetcode.seq31_40;
+package leetcode.seq0031_0040;
 
 import java.util.Arrays;
+import java.util.concurrent.ConcurrentHashMap;
 
 public class SearchRange {
     private int low(int[] nums, int target){
@@ -44,6 +45,8 @@ public class SearchRange {
     }
 
     public static void main(String[] args) {
+        new ConcurrentHashMap(32);
+
         SearchRange searchRange = new SearchRange();
 
 //        int[] nums = {5,7,7,8,8,10};

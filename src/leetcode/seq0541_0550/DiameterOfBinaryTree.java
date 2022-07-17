@@ -1,4 +1,4 @@
-package leetcode.seq541_550;
+package leetcode.seq0541_0550;
 
 public class DiameterOfBinaryTree {
     /**
