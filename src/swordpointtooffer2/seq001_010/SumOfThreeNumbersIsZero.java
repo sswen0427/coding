@@ -1,4 +1,4 @@
-package swordpointtooffer.seq1_10;
+package swordpointtooffer2.seq001_010;
 
 import java.util.ArrayList;
 import java.util.Arrays;

@@ -1,4 +1,4 @@
-package swordpointtooffer.seq21_30;
+package swordpointtooffer2.seq021_030;
 
 import java.util.*;
 

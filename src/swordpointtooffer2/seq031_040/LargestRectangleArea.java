@@ -1,4 +1,4 @@
-package swordpointtooffer.seq31_40;
+package swordpointtooffer2.seq031_040;
 
 import java.util.ArrayDeque;
 import java.util.Deque;

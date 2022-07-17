@@ -1,4 +1,4 @@
-package swordpointtooffer.seq41_50;
+package swordpointtooffer2.seq041_050;
 
 import java.util.Arrays;
 import java.util.LinkedList;

@@ -1,4 +1,4 @@
-package swordpointtooffer.seq11_20;
+package swordpointtooffer2.seq011_020;
 
 public class PalindromeString {
     public int countSubstrings(String s) {
