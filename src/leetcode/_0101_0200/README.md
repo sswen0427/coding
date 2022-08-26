@@ -1,6 +1,9 @@
 102 [二叉树层序遍历](https://leetcode-cn.com/problems/binary-tree-level-order-traversal/)  
 &nbsp;&nbsp;&nbsp;&nbsp;simple
 
+114 [二叉树展开为链表](https://leetcode.cn/problems/flatten-binary-tree-to-linked-list/)  
+&nbsp;&nbsp;&nbsp;&nbsp;难
+
 121 [买卖股票的最佳时机](https://leetcode.cn/problems/best-time-to-buy-and-sell-stock/)  
 &nbsp;&nbsp;&nbsp;&nbsp;第一次字节面试没做出来，后来又没做出来，恶心人
 
