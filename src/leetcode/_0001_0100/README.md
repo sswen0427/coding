@@ -21,3 +21,6 @@
 
 64 [最小路径和](https://leetcode.cn/problems/minimum-path-sum/)  
 &nbsp;&nbsp;&nbsp;&nbsp;simple
+
+96 [不同的二叉搜索树](https://leetcode.cn/problems/unique-binary-search-trees/)  
+&nbsp;&nbsp;&nbsp;&nbsp;动态规划,没想到
