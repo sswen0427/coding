@@ -4,6 +4,9 @@
 104 [二叉树的最大深度](https://leetcode.cn/problems/maximum-depth-of-binary-tree/)  
 &nbsp;&nbsp;&nbsp;&nbsp;simple
 
+105 [从前序与中序遍历序列构造二叉树](https://leetcode.cn/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)  
+&nbsp;&nbsp;&nbsp;&nbsp;考研时候看过 又忘了
+
 114 [二叉树展开为链表](https://leetcode.cn/problems/flatten-binary-tree-to-linked-list/)  
 &nbsp;&nbsp;&nbsp;&nbsp;难
 
