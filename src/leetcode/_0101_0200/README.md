@@ -1,6 +1,9 @@
 102 [二叉树层序遍历](https://leetcode-cn.com/problems/binary-tree-level-order-traversal/)  
 &nbsp;&nbsp;&nbsp;&nbsp;simple
 
+104 [二叉树的最大深度](https://leetcode.cn/problems/maximum-depth-of-binary-tree/)  
+&nbsp;&nbsp;&nbsp;&nbsp;simple
+
 114 [二叉树展开为链表](https://leetcode.cn/problems/flatten-binary-tree-to-linked-list/)  
 &nbsp;&nbsp;&nbsp;&nbsp;难
 
