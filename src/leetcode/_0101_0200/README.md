@@ -1,3 +1,7 @@
+101 [对称二叉树](https://leetcode.cn/problems/symmetric-tree/)
+
+&nbsp;&nbsp;&nbsp;&nbsp; 百度一面面试题, simple
+
 102 [二叉树层序遍历](https://leetcode-cn.com/problems/binary-tree-level-order-traversal/)  
 &nbsp;&nbsp;&nbsp;&nbsp;simple
 
