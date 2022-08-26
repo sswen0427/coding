@@ -1,4 +1,4 @@
-package leetcode.seq0001_0010;
+package leetcode._0001_0100.seq0001_0010;
 
 import java.util.HashMap;
 import java.util.Map;

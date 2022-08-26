@@ -1,4 +1,4 @@
-package leetcode.seq0061_0070;
+package leetcode._0001_0100.seq0061_0070;
 
 public class MinPathSum {
     public int minPathSum(int[][] grid) {

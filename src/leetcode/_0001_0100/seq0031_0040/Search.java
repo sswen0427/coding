@@ -1,4 +1,4 @@
-package leetcode.seq0031_0040;
+package leetcode._0001_0100.seq0031_0040;
 
 public class Search {
     public int search(int[] nums, int target) {

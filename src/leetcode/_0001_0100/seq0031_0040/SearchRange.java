@@ -1,4 +1,4 @@
-package leetcode.seq0031_0040;
+package leetcode._0001_0100.seq0031_0040;
 
 import java.util.Arrays;
 import java.util.concurrent.ConcurrentHashMap;

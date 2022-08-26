@@ -1,4 +1,4 @@
-package leetcode.seq0051_0060;
+package leetcode._0001_0100.seq0051_0060;
 
 public class MaxSubArray {
     public int maxSubArray(int[] nums) {

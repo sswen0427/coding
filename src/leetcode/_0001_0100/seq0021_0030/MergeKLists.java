@@ -1,4 +1,4 @@
-package leetcode.seq0021_0030;
+package leetcode._0001_0100.seq0021_0030;
 import java.util.PriorityQueue;
 
 public class MergeKLists {
