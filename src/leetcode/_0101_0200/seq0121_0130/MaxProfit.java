@@ -1,4 +1,4 @@
-package leetcode.seq0121_0130;
+package leetcode._0101_0200.seq0121_0130;
 
 public class MaxProfit {
     public int maxProfit(int[] prices) {

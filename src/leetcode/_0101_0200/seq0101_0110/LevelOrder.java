@@ -1,4 +1,4 @@
-package leetcode.seq0101_0110;
+package leetcode._0101_0200.seq0101_0110;
 
 import java.util.ArrayList;
 import java.util.Deque;
