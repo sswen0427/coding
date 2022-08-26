@@ -4,6 +4,9 @@
 121 [买卖股票的最佳时机](https://leetcode.cn/problems/best-time-to-buy-and-sell-stock/)  
 &nbsp;&nbsp;&nbsp;&nbsp;第一次字节面试没做出来，后来又没做出来，恶心人
 
+128 [最长连续序列](https://leetcode.cn/problems/longest-consecutive-sequence/)  
+&nbsp;&nbsp;&nbsp;&nbsp;哈希表
+
 136 [只出现一次的数字](https://leetcode.cn/problems/single-number/)  
 &nbsp;&nbsp;&nbsp;&nbsp;使用异或
 
