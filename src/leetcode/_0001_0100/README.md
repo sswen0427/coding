@@ -22,6 +22,9 @@
 64 [最小路径和](https://leetcode.cn/problems/minimum-path-sum/)  
 &nbsp;&nbsp;&nbsp;&nbsp;simple
 
+84 [柱状图中最大的矩形](https://leetcode.cn/problems/largest-rectangle-in-histogram/)  
+&nbsp;&nbsp;&nbsp;&nbsp;做过又忘记了
+
 94 [二叉树的中序遍历](https://leetcode.cn/problems/binary-tree-inorder-traversal/)  
 &nbsp;&nbsp;&nbsp;&nbsp;simple
 
