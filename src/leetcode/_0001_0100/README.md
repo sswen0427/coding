@@ -25,6 +25,9 @@
 84 [柱状图中最大的矩形](https://leetcode.cn/problems/largest-rectangle-in-histogram/)  
 &nbsp;&nbsp;&nbsp;&nbsp;做过又忘记了
 
+85 [最大矩形](https://leetcode.cn/problems/maximal-rectangle/)  
+&nbsp;&nbsp;&nbsp;&nbsp;对84题的简单应用
+
 94 [二叉树的中序遍历](https://leetcode.cn/problems/binary-tree-inorder-traversal/)  
 &nbsp;&nbsp;&nbsp;&nbsp;simple
 

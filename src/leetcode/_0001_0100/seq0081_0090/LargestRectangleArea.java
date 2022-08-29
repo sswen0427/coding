@@ -4,7 +4,7 @@ import java.util.Deque;
 import java.util.LinkedList;
 
 public class LargestRectangleArea {
-    public int largestRectangleArea(int[] heights) {
+    public static int largestRectangleArea(int[] heights) {
         int n = heights.length;
         int[] left = new int[n];
         int[] right = new int[n];
