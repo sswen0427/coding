@@ -24,3 +24,6 @@
 
 96 [不同的二叉搜索树](https://leetcode.cn/problems/unique-binary-search-trees/)  
 &nbsp;&nbsp;&nbsp;&nbsp;动态规划,没想到
+
+98 [验证二叉搜索树](https://leetcode.cn/problems/validate-binary-search-tree/)  
+&nbsp;&nbsp;&nbsp;&nbsp;注意范围
