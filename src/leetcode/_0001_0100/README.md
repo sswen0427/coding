@@ -22,6 +22,9 @@
 64 [最小路径和](https://leetcode.cn/problems/minimum-path-sum/)  
 &nbsp;&nbsp;&nbsp;&nbsp;simple
 
+79 [单词搜索](https://leetcode.cn/problems/word-search/)  
+&nbsp;&nbsp;&nbsp;&nbsp;中等吧，可以做出来，比较耗时
+
 84 [柱状图中最大的矩形](https://leetcode.cn/problems/largest-rectangle-in-histogram/)  
 &nbsp;&nbsp;&nbsp;&nbsp;做过又忘记了
 
