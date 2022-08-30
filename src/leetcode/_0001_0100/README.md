@@ -16,6 +16,9 @@
 39 [组合总和](https://leetcode.cn/problems/combination-sum/)  
 &nbsp;&nbsp;&nbsp;&nbsp;simple
 
+40 [组合总和 II](https://leetcode.cn/problems/combination-sum-ii/)  
+&nbsp;&nbsp;&nbsp;&nbsp;不会
+
 53 [最大子数组和](https://leetcode.cn/problems/maximum-subarray/)  
 &nbsp;&nbsp;&nbsp;&nbsp;dp[i] = max(dp[i-1] + nums[i], nums[i])
 
