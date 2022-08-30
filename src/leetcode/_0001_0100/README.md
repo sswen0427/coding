@@ -22,6 +22,9 @@
 46 [全排列](https://leetcode.cn/problems/permutations/)  
 &nbsp;&nbsp;&nbsp;&nbsp;不会
 
+47 [全排列 II](https://leetcode.cn/problems/permutations-ii/)  
+&nbsp;&nbsp;&nbsp;&nbsp;不会;难
+
 53 [最大子数组和](https://leetcode.cn/problems/maximum-subarray/)  
 &nbsp;&nbsp;&nbsp;&nbsp;dp[i] = max(dp[i-1] + nums[i], nums[i])
 
