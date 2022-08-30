@@ -34,6 +34,9 @@
 85 [最大矩形](https://leetcode.cn/problems/maximal-rectangle/)  
 &nbsp;&nbsp;&nbsp;&nbsp;对84题的简单应用
 
+90 [子集 II](https://leetcode.cn/problems/subsets-ii/)  
+&nbsp;&nbsp;&nbsp;&nbsp; 看78题，不会做
+
 94 [二叉树的中序遍历](https://leetcode.cn/problems/binary-tree-inorder-traversal/)  
 &nbsp;&nbsp;&nbsp;&nbsp;simple
 
