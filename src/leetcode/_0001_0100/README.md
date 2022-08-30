@@ -22,6 +22,9 @@
 64 [最小路径和](https://leetcode.cn/problems/minimum-path-sum/)  
 &nbsp;&nbsp;&nbsp;&nbsp;simple
 
+77 [组合](https://leetcode.cn/problems/combinations/)  
+&nbsp;&nbsp;&nbsp;&nbsp;不会
+
 78 [子集](https://leetcode.cn/problems/subsets/)  
 &nbsp;&nbsp;&nbsp;&nbsp;回溯，做过，又忘记了
 
