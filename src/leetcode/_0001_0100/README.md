@@ -13,6 +13,9 @@
 34 [在排序数组中查找元素的第一个和最后一个位置](https://leetcode.cn/problems/find-first-and-last-position-of-element-in-sorted-array/)  
 &nbsp;&nbsp;&nbsp;&nbsp;simple
 
+39 [组合总和](https://leetcode.cn/problems/combination-sum/)  
+&nbsp;&nbsp;&nbsp;&nbsp;simple
+
 53 [最大子数组和](https://leetcode.cn/problems/maximum-subarray/)  
 &nbsp;&nbsp;&nbsp;&nbsp;dp[i] = max(dp[i-1] + nums[i], nums[i])
 
@@ -48,3 +51,5 @@
 
 98 [验证二叉搜索树](https://leetcode.cn/problems/validate-binary-search-tree/)  
 &nbsp;&nbsp;&nbsp;&nbsp;注意范围
+
+子集组合: 子集、子集 II、组合、组合总和、组合总和 II
