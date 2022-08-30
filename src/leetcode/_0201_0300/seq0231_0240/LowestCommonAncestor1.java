@@ -1,4 +1,4 @@
-package leetcode.seq0231_0240;
+package leetcode._0201_0300.seq0231_0240;
 
 /**
  * Definition for a binary tree node.

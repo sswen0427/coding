@@ -1,4 +1,4 @@
-package leetcode.seq1141_1150;
+package leetcode._1101_1200.seq1141_1150;
 
 public class LongestCommonSubsequence {
     public int longestCommonSubsequence(String text1, String text2) {

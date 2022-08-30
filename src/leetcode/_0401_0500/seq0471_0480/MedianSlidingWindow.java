@@ -1,4 +1,4 @@
-package leetcode.seq0471_0480;
+package leetcode._0401_0500.seq0471_0480;
 
 import java.util.PriorityQueue;
 
