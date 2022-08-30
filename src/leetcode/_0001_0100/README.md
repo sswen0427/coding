@@ -63,4 +63,4 @@
 
 子集组合: 子集、子集 II、组合、组合总和、组合总和 II
 
-全排列: 全排列、全排列 II、[字符串的全排列](https://leetcode.cn/problems/zi-fu-chuan-de-pai-lie-lcof/)、字母大小写全排列(784)
+全排列: 全排列、全排列 II、[字符串的全排列](https://leetcode.cn/problems/zi-fu-chuan-de-pai-lie-lcof/)、[字母大小写全排列](https://leetcode.cn/problems/letter-case-permutation/)
