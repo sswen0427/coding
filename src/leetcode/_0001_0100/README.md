@@ -37,6 +37,9 @@
 64 [最小路径和](https://leetcode.cn/problems/minimum-path-sum/)  
 &nbsp;&nbsp;&nbsp;&nbsp;simple
 
+70 [爬楼梯](https://leetcode.cn/problems/climbing-stairs/)  
+&nbsp;&nbsp;&nbsp;&nbsp;动态规划,递归方程都没写出来
+
 72 [编辑距离](https://leetcode.cn/problems/edit-distance/)  
 &nbsp;&nbsp;&nbsp;&nbsp;以为是搜索，没想到是动态规划
 
