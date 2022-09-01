@@ -13,6 +13,9 @@
 34 [在排序数组中查找元素的第一个和最后一个位置](https://leetcode.cn/problems/find-first-and-last-position-of-element-in-sorted-array/)  
 &nbsp;&nbsp;&nbsp;&nbsp;simple
 
+37 [解数独](https://leetcode.cn/problems/sudoku-solver/)  
+&nbsp;&nbsp;&nbsp;&nbsp;不会;难
+
 39 [组合总和](https://leetcode.cn/problems/combination-sum/)  
 &nbsp;&nbsp;&nbsp;&nbsp;simple
 
@@ -65,4 +68,4 @@
 
 全排列: 全排列、全排列 II、[字符串的全排列](https://leetcode.cn/problems/zi-fu-chuan-de-pai-lie-lcof/)、[字母大小写全排列](https://leetcode.cn/problems/letter-case-permutation/)
 
-搜索:  [解数独](https://leetcode.cn/problems/sudoku-solver/)、单词搜索、N皇后、分割回文串、二进制手表
+搜索:  [解数独](https://leetcode.cn/problems/sudoku-solver/)、[单词搜索](https://leetcode.cn/problems/word-search/)、[N皇后](https://leetcode.cn/problems/eight-queens-lcci/)、分割回文串、二进制手表
