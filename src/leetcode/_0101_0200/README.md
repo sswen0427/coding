@@ -24,6 +24,9 @@
 128 [最长连续序列](https://leetcode.cn/problems/longest-consecutive-sequence/)  
 &nbsp;&nbsp;&nbsp;&nbsp;哈希表
 
+131 [分割回文串](https://leetcode.cn/problems/palindrome-partitioning/)  
+&nbsp;&nbsp;&nbsp;&nbsp;simple
+
 136 [只出现一次的数字](https://leetcode.cn/problems/single-number/)  
 &nbsp;&nbsp;&nbsp;&nbsp;使用异或
 
