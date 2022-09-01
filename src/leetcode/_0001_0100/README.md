@@ -28,6 +28,9 @@
 47 [全排列 II](https://leetcode.cn/problems/permutations-ii/)  
 &nbsp;&nbsp;&nbsp;&nbsp;不会;难
 
+48 [旋转图像](https://leetcode.cn/problems/rotate-image/)  
+&nbsp;&nbsp;&nbsp;&nbsp; 题目不难，就是绕来绕去的
+
 49 [字母异位词分组](https://leetcode.cn/problems/group-anagrams/)  
 &nbsp;&nbsp;&nbsp;&nbsp; simple
 
