@@ -34,6 +34,9 @@
 55 [跳跃游戏](https://leetcode.cn/problems/jump-game/)  
 &nbsp;&nbsp;&nbsp;&nbsp;真的想不到
 
+56 [合并区间](https://leetcode.cn/problems/merge-intervals/)  
+&nbsp;&nbsp;&nbsp;&nbsp;simple
+
 62 [不同路径](https://leetcode.cn/problems/unique-paths/)  
 &nbsp;&nbsp;&nbsp;&nbsp;simple
 
