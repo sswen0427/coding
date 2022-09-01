@@ -37,6 +37,9 @@
 64 [最小路径和](https://leetcode.cn/problems/minimum-path-sum/)  
 &nbsp;&nbsp;&nbsp;&nbsp;simple
 
+72 [编辑距离](https://leetcode.cn/problems/edit-distance/)  
+&nbsp;&nbsp;&nbsp;&nbsp;以为是搜索，没想到是动态规划
+
 75 [颜色分类](https://leetcode.cn/problems/sort-colors/)  
 &nbsp;&nbsp;&nbsp;&nbsp;单指针法
 
