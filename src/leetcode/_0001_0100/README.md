@@ -68,4 +68,4 @@
 
 全排列: 全排列、全排列 II、[字符串的全排列](https://leetcode.cn/problems/zi-fu-chuan-de-pai-lie-lcof/)、[字母大小写全排列](https://leetcode.cn/problems/letter-case-permutation/)
 
-搜索:  [解数独](https://leetcode.cn/problems/sudoku-solver/)、[单词搜索](https://leetcode.cn/problems/word-search/)、[N皇后](https://leetcode.cn/problems/eight-queens-lcci/)、分割回文串、二进制手表
+搜索:  [解数独](https://leetcode.cn/problems/sudoku-solver/)、[单词搜索](https://leetcode.cn/problems/word-search/)、[N皇后](https://leetcode.cn/problems/eight-queens-lcci/)、[分割回文串](https://leetcode.cn/problems/palindrome-partitioning/)、二进制手表
