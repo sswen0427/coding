@@ -22,6 +22,9 @@
 40 [组合总和 II](https://leetcode.cn/problems/combination-sum-ii/)  
 &nbsp;&nbsp;&nbsp;&nbsp;不会
 
+42 [接雨水](https://leetcode.cn/problems/trapping-rain-water/)  
+&nbsp;&nbsp;&nbsp;&nbsp;不会;难
+
 46 [全排列](https://leetcode.cn/problems/permutations/)  
 &nbsp;&nbsp;&nbsp;&nbsp;不会
 
