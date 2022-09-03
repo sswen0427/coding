@@ -7,6 +7,9 @@
 31 [下一个排列](https://leetcode.cn/problems/next-permutation/)  
 &nbsp;&nbsp;&nbsp;&nbsp;生而为人，我很抱歉
 
+32 [最长有效括号](https://leetcode.cn/problems/longest-valid-parentheses/)  
+&nbsp;&nbsp;&nbsp;&nbsp;不会;难
+
 33 [搜索旋转排序数组](https://leetcode.cn/problems/search-in-rotated-sorted-array/)  
 &nbsp;&nbsp;&nbsp;&nbsp;要画图来进行分析，看答案做的
 
