@@ -1,6 +1,9 @@
 3 [无重复字符的最长子串](https://leetcode.cn/problems/longest-substring-without-repeating-characters/)  
 &nbsp;&nbsp;&nbsp;&nbsp;难度一般
 
+22 [括号生成](https://leetcode.cn/problems/generate-parentheses/)  
+&nbsp;&nbsp;&nbsp;&nbsp;不会;难
+
 23 [合并K个升序链表](https://leetcode.cn/problems/merge-k-sorted-lists/)  
 &nbsp;&nbsp;&nbsp;&nbsp;比较简单
 
