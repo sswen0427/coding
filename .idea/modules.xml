@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/alibaba/alibaba.iml" filepath="$PROJECT_DIR$/alibaba/alibaba.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bytedance/bytedance.iml" filepath="$PROJECT_DIR$/bytedance/bytedance.iml" />
       <module fileurl="file://$PROJECT_DIR$/coding.iml" filepath="$PROJECT_DIR$/coding.iml" />
+      <module fileurl="file://$PROJECT_DIR$/interview/interview.iml" filepath="$PROJECT_DIR$/interview/interview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/leetcode/leetcode.iml" filepath="$PROJECT_DIR$/leetcode/leetcode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/swordpointtooffer/swordpointtooffer.iml" filepath="$PROJECT_DIR$/swordpointtooffer/swordpointtooffer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tencent/tencent.iml" filepath="$PROJECT_DIR$/tencent/tencent.iml" />
     </modules>
   </component>
 </project>
