@@ -76,6 +76,9 @@
 75 [颜色分类](https://leetcode.cn/problems/sort-colors/)  
 &nbsp;&nbsp;&nbsp;&nbsp;单指针法
 
+76 [最小覆盖字串](https://leetcode.cn/problems/minimum-window-substring/)  
+&nbsp;&nbsp;&nbsp;&nbsp;双指针，看答案的
+
 77 [组合](https://leetcode.cn/problems/combinations/)  
 &nbsp;&nbsp;&nbsp;&nbsp;不会
 
