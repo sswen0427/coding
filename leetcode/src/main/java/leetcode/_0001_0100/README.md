@@ -41,7 +41,7 @@
 &nbsp;&nbsp;&nbsp;&nbsp;不会;难
 
 46 [全排列](https://leetcode.cn/problems/permutations/)  
-&nbsp;&nbsp;&nbsp;&nbsp;不会
+&nbsp;&nbsp;&nbsp;&nbsp;不会 --> 不会
 
 47 [全排列 II](https://leetcode.cn/problems/permutations-ii/)  
 &nbsp;&nbsp;&nbsp;&nbsp;不会;难
