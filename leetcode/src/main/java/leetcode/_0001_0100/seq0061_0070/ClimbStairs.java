@@ -1,4 +1,4 @@
-package leetcode._0001_0100.seq0071_0080;
+package leetcode._0001_0100.seq0061_0070;
 
 public class ClimbStairs {
 
